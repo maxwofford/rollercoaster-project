@@ -15,7 +15,7 @@
             <h1>How's this look?</h1>
             <h5>We'd love to hear your feedback on what you liked about this segment.</h5>
 
-            <iframe width="420" height="315" src="//www.youtube.com/embed/AkwQN2L2wFk" frameborder="0" allowfullscreen>This is an iframe</iframe>
+            <iframe width="420" height="315" src="//www.youtube.com/embed/AkwQN2L2wFk?autoplay=1" frameborder="0" allowfullscreen>This is an iframe</iframe>
             
             <!--User input area-->
                 <input id="emailInput" type="email" placeholder="Enter your email" value="">
@@ -33,7 +33,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript">
-    var ref = new Firebase("https://rollercoaster-2014.firebaseio.com/feedback"); /*Initialize firebase*/
+    var ref = new Firebase("https://rollercoaster-2014.firebaseio.com/feedback/roll-1"); /*Initialize firebase*/
 
     var userEmail = document.getElementById("emailInput").value; /*Read the email the user typed in*/
     var userFeedback = document.getElementById("feedbackInput").value; /*Read the feedback the user typed in*/
